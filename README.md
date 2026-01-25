@@ -1,0 +1,2 @@
+ML-APT: Machine Learning Enhanced Atom Probe Tomography for Ordered Interstitial Complexes (OICs) Detection
+This repository contains the machine learning framework developed for identifying Ordered Interstitial Complexes (OICs) in atom probe tomography (APT) data of TiZrNb medium-entropy alloys (MEAs). The framework, named ML-APT, integrates physical priors and hierarchical recognition strategies to systematically identify short-range ordered (SRO) domains and OICs from APT reconstructions.
