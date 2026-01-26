@@ -20,6 +20,8 @@ Statistical Validation: Verification of non-randomness in identified structures 
 3D Visualization: Generation of 3D spatial distribution maps for Ti-Zr enriched regions and Nb enriched regions.
 Quantitative Analysis: Precise calculation of key parameters including OIC number density, size distribution, and chemical composition.
 
+
+
 Technical Features
 -------
 1. Data Generation & Feature Engineering
@@ -38,5 +40,11 @@ Hyperparameter Optimization: Model parameters are optimized via grid search and 
 Nearest Neighbor Search: Incorporates O/N atoms into the identified SRO units.
 Statistical Verification: Uses contingency coefficients to validate the non-random nature of the results.
 Classification Rules: OICs are categorized into OIC1 and OIC2 based on the occupancy ratio of O/N atoms.
-5. Performance MetricsClassification Accuracy: Achieved 96.7% on the test set.ROC-AUC Values: 0.98 for Ti-Zr enriched regions and 0.96 for Nb enriched regions.Cross-validation Consistency: Five-fold cross-validation accuracy standard deviation < 0.5%.Operational Efficiency: Processing time for a single sample (~$10^7$ atoms) is approximately 7 minutes (on an Intel i9-12900H).
+5. Performance MetricsClassification Accuracy: Achieved 96.7% on the test set.ROC-AUC Values: 0.98 for Ti-Zr enriched regions and 0.96 for Nb enriched regions.Cross-validation Consistency: Five-fold cross-validation accuracy standard deviation < 0.5%.Operational Efficiency: Processing time for a single sample (10^7 atoms) is approximately 7 minutes (on an Intel i9-12900H).
 
+
+
+Workflow Overview
+-------
+The application of the ML-APT framework follows a comprehensive end-to-end process:
+Data Preparation→Feature Extraction→Model Training→OIC Identification→Statistical Analysis →Visualization Output
